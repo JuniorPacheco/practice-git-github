@@ -1,7 +1,7 @@
 const JhoanBenavides = () => {
   return <article className="text-center p-4 text-lg">
   <header className="w-[230px] shadow-md rounded-md overflow-hidden mx-auto">
-    <img src="" alt="" />
+    <img src="/images.jpeg" alt="" />
   </header>
   <h2 className="font-bold">Jhoan Benavides</h2>
   <p className="text-slate-500 font-semibold">
