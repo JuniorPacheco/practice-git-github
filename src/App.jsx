@@ -1,10 +1,22 @@
+import AlberTicona from "./components/AlberTicona";
+import HelderFlores from "./components/HelderFlores";
+import IvanAguirre from "./components/IvanAguirre";
+import JhoanBenavides from "./components/JhoanBenavides";
+import JuniorPacheco from "./components/JuniorPacheco";
+import RonaldoFlores from "./components/RonaldoFlores";
+import Steven from "./components/Steven";
+
 function App() {
   return (
-    <>
-      <h1 className="text-center p-2 font-bold">
-        Starter React - Vite - Javascript - TailwindCSS
-      </h1>
-    </>
+    <main className="grid justify-center gap-6">
+      <JuniorPacheco />
+      <AlberTicona />
+      <JhoanBenavides />
+      <RonaldoFlores />
+      <IvanAguirre />
+      <Steven />
+      <HelderFlores />
+    </main>
   );
 }
 
